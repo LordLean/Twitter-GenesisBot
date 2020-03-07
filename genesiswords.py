@@ -3936,3 +3936,6 @@ embalmed him, and he was put in a coffin in Egypt.
 """
 
 genesis_words = genesis_words.replace('\n', ' ')
+
+with open("genesisList.py", "w") as output:
+    output.write(str(genesis_words))
