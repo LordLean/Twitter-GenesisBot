@@ -12,10 +12,8 @@ def get_quote(sents):
     rand_index = random.randint(0,len(sents) - 1)
     curr_quote = sents[rand_index]# + sents[rand_index+1]
 
-    return curr_quote + "\n Brought to you by Genesis_Bot : Praise Be!"
+    return curr_quote + "\nBrought to you by Genesis_Bot : Praise Be!"
 
-if __name__ == "__main__":
-    get_quote(genesis_sentences)
 
 auth = tweepy.OAuthHandler(k["CONSUMER_KEY"], k["CONSUMER_SECRET"])
 auth.set_access_token(k["ACCESS_KEY"], k["ACCESS_SECRET"])
