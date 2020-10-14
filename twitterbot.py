@@ -1,7 +1,4 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
 import sys
-sys.path.append("/Users/alex/Documents/Coding_Projects/twitterbot/")
 import tweepy, time
 import random
 from genesisList import genesis_sentences
